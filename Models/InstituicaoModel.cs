@@ -6,5 +6,9 @@
         public string Nome { get; set; }
         public string Endereco { get; set; }
         public string Cnpj { get; set; }
+        public ICollection<AlunoModel> Aluno { get; set; } = new List<AlunoModel>();    
+        
     }
+    
+
 }
