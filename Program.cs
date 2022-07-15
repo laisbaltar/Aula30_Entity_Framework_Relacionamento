@@ -1,7 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+using Aula30.Models;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=local;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<EscolaContext>(opt => opt.UseSqlServer(ConnectionString));
+
 
 var app = builder.Build();
 

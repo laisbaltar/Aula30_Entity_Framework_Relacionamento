@@ -1864,19 +1864,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\renatak\\.nuget\\packages\\": {}
+    "C:\\Users\\laiss\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renatak\\Documents\\Digital House\\Aula30\\Aula30.csproj",
+      "projectUniqueName": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula30 15_07\\Aula30.csproj",
       "projectName": "Aula30",
-      "projectPath": "C:\\Users\\renatak\\Documents\\Digital House\\Aula30\\Aula30.csproj",
-      "packagesPath": "C:\\Users\\renatak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renatak\\Documents\\Digital House\\Aula30\\obj\\",
+      "projectPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula30 15_07\\Aula30.csproj",
+      "packagesPath": "C:\\Users\\laiss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula30 15_07\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\renatak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\laiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
